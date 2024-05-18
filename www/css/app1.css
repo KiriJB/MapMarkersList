@@ -1,0 +1,456 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color:#FFF;
+}
+
+body {
+  padding-top: 5px; 
+}
+
+ul{
+	background-color:#FFF;
+}
+
+ul.about{
+	background-color:#2E4057;
+	text-align:left
+}
+
+li.about{
+	background-color:#2E4057;
+}
+
+a{
+  color: #2E4057;
+}
+
+a.light{
+  color: #F6F4E8;
+}
+
+H3{font-family: "Arial";
+   font-size:14px;
+   font-weight:bold;
+   color:#2E4057 
+   }
+   
+H5{font-family: "Arial";
+   font-size: 12px;
+   color:#2E4057
+   }
+  
+#sidebar {
+  display: block;
+  height: 500px;
+  max-width: 100%;
+  min-width:100%; 
+  float: left;
+  overflow: auto;
+  color: #2E4057  
+}
+
+#mymap {
+  width: auto; 
+  height: 500px;
+  width:100%;
+  padding: 0px;
+  margin:0px
+}
+
+#features {
+  margin: 0px;
+  border: none;
+  border-radius: 0px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#container {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#main{ 
+	padding-left:15px !important;
+	}
+
+#header{
+	padding-left:15px !important;
+	} 
+
+#accordion{
+	display:block;
+	width:100% !important;
+	min-width:100% !important;
+	margin-bottom:10px;
+	border-radius: 10px;
+	}
+
+#layoutwidth{
+	
+	margin-right:0px !important;
+}
+
+#imgpane{ 
+	  margin:0px !important;
+	  padding-right:0px !important;
+	  padding-left:0px !important;
+	  padding-bottom:5px !important;
+	  width:40%;
+	  height:auto
+	  }
+
+#aboutpane{
+	background-color:#2E4057;
+	padding:0px !important;
+	overflow: auto;
+	width:50%;
+	height:550px;
+	color:#F6F4E8
+	}
+	
+div.aboutdiv {
+  position: relative;
+  left: 10px;
+}
+
+#setimage{
+	width:auto;
+	height:550px !important;
+	background-repeat:repeat-x
+	}	 
+	
+
+div#oneline {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    line-height: 30px;
+	width:100% !important;
+	padding-right: 2px
+}
+
+.navbar{
+	 background-color:#FFF; 
+} 
+
+.navbar-collapse{
+	color: #2E4057;
+} 
+
+.accordion-body{
+	text-align:center
+}
+.accordion-header{
+	width:100% !important;
+	min-width:100% !important;
+}
+
+span.image {
+    position:absolute;
+    left: 2px;
+    top: 1px;
+	width:20px !important;
+}
+
+span.text {
+	width:100% !important;
+	min-width:100% !important;
+    margin-left:0px;
+	/* position:right; */
+}
+
+.title{
+	  text-align:center
+}
+
+div.image{
+    position:absolute;
+    left: 0px;
+    top: 0px;
+}
+
+ .list-group-horizontal .list-group-item {
+    display: inline-block;
+	width: auto;
+}
+
+.list-group-horizontal .list-group-item {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+	background-color:#FFF
+}
+
+.list-group-horizontal .list-group-item:first-child {
+    border-top-right-radius:0px;
+    border-bottom-left-radius:0px;
+ 	background-color:#FFF;
+}
+
+.list-group-horizontal .list-group-item:last-child {
+    border-top-right-radius:4px;
+    border-bottom-left-radius:0;
+    border-right-width: 1px;
+    background-color:#FFF;
+}
+
+#buttonheader{
+	color: #2E4057;
+    background-color: #AFCED8;
+	padding:2px;
+	margin-right: 5px;
+}
+#emailform{
+	height:550px;
+}
+
+.footspacer{
+	height:10px;
+}
+
+.footerrow {
+	height:10px;
+}
+
+#sendstyle{
+	background-image:url('../img/emailbground.jpg');
+}
+
+#sendcolor{
+	background-color:#2E4057;
+	color:#F6F4E8
+}
+
+.list-group-item{
+	color: #2E4057;
+    background-color: #AFCED8;
+	padding:2px;
+	margin-right: 5px;
+	
+}
+.sidetitle{
+	color:#2E4057;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "Arial";
+	/* position: center */
+}
+
+/*sidebar buttons always fill width of parent container*/
+#jsoncontent{
+	width:100%;
+}
+
+.btn
+{
+  color: #2E4057;
+  background-color: #FFF;
+  border-width:1px;
+  border-style:solid;
+  border-color:#2E4057;
+  text-align: right !important;
+  width:100% !important;
+  text-indent:15px !important;	
+  top: 5px;
+  padding: 5px
+}
+
+.btn:active{
+	color: #2E4057;
+	border-width:1px;
+  border-style:solid;
+  border-color:#2E4057;
+}
+
+.btn:hover{
+  color: #2E4057;
+  background-color: #AFCED8;
+  border-width:1px;
+  border-style:solid;
+  border-color:#2E4057;
+  text-align: right !important;
+  width:100% !important;
+  text-indent:15px !important;	
+  top: 5px;
+  padding: 5px
+}
+
+.btnheader{
+	color: #2E4057;
+    background-color: #AFCED8;
+	padding:2px;
+	margin-right: 5px;}
+
+.btnpost
+{ 
+  margin-right:5px !important;
+  text-align: center !important;
+}
+
+.btnemail
+{ 
+  background-color:#AFCED8;
+  margin-right:5px !important;
+  text-align: center !important;
+  color: #2E4057;
+  border-radius: 10px;
+  width: 200px;
+  /* font:arial; */
+  font-weight:bold
+}
+
+div.d-grid{
+	text-align: center;
+	font-weight: bold
+}
+
+mainheader{
+ 	background-color:#FFF 
+}
+#footerRight{
+	text-align:right;
+}
+
+.panel-bottom{
+   width: 100%;
+   height: 10px;
+   font-family: Arial;
+   font-size:14px;
+}
+
+.panel-bottom-right{
+   height: 10px;
+   font-family: Arial;
+   font-size:14px;
+/*    text-align:align-right;  */
+  
+}
+
+/* pop up */
+.ol-popup {
+	position: absolute;
+	background-color: white;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+	padding: 15px;
+	border-radius: 10px;
+	border: 1px solid #cccccc;
+	bottom: 12px;
+	left: -50px;
+	width:200px;
+	max-width:250px;
+	min-width: 150px;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+    font-size:8px;
+  }
+  
+  .ol-popup:after, .ol-popup:before {
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+  }
+  
+  .ol-popup:after {
+	border-top-color: white;
+	border-width: 10px;
+	left: 48px;
+	margin-left: -10px;
+  }
+  
+  .ol-popup:before {
+	border-top-color: #cccccc;
+	border-width: 11px;
+	left: 48px;
+	margin-left: -11px;
+  }
+  
+  .ol-popup-closer {
+	text-decoration: none;
+	position: absolute;
+	top: 2px;
+	right: 8px;
+  }
+  
+  .ol-popup-closer:after {
+	content: "✖";
+  }
+  
+  .map{
+    padding:0px; 
+    width:auto; 
+	border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /*remove padding between sidemenu and map*/
+  
+  .col-sm-8{
+	  margin:0px !important;
+	  padding:1px !important;
+	  padding-right:10px !important;
+	  padding-bottom:5px !important;
+  }
+  
+  .col-sm-4{
+	  margin:0px !important;
+	  padding:1px !important;
+	  padding-left:10px !important;
+	  padding-bottom:5px !important;
+  }
+  
+  /*update look off openlayers map controls*/
+  #mymap .ol-zoomslider {
+	background-color: rgba(246,244,232,0.6)!important;
+    }
+	
+  #mymap .ol-zoomslider button{
+	background-color: rgba(46,64,87,0.6)!important;
+    }
+	
+  #mymap .ol-zoom .ol-zoom-out{
+	  background-color:rgba(46,64,87,0.6)!important;
+  }
+  
+  #mymap .ol-zoom .ol-zoom-in{
+	  background-color:rgba(46,64,87,0.6)!important;
+  }
+	
+  #mymap .ol-scale-line {
+	background: rgba(46,64,87,0.7)!important;
+	}
+ 
+  
+  
+/*Change colour of nav bar links*/
+nav .navbar-nav li a{
+  color: #2E4057 !important; 
+  }
+  
+nav .navbar-nav li a:hover{
+  color: #F15D22 !important; 
+  }
+  
+/*maintain width of side menu*/
+/*https://stackoverflow.com/questions/46127968/collapsible-menu-with-fixed-width-using-bootstrap*/
+.class-header {
+    width: 350px;
+    margin: 50px;
+	padding:0px
+}
+
+@media only screen and (max-width: 769px) {
+  .menu{
+    width:25%;
+  }
+}
+
+
